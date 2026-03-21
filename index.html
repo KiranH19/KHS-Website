@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karnataka High School, Fort Dharwad</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== LOADING SCREEN ===== -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">KHS</div>
+      <div class="loader-bar"><span></span></div>
+    </div>
+  </div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand">
+        <div class="brand-icon"><img src="img-logo.png" alt="KHS Logo" class="nav-logo-img" /></div>
+        <div class="brand-text">
+          <span class="brand-name">Karnataka High School</span>
+          <span class="brand-sub">Fort, Dharwad</span>
+        </div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#facilities">Facilities</a></li>
+        <li><a href="#student-life">Student Life</a></li>
+        <li><a href="#alumni">Alumni</a></li>
+        <li><a href="#admissions" class="nav-cta">Admissions</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+      <!-- Decorative geometric shapes -->
+      <div class="hero-shape shape-1"></div>
+      <div class="hero-shape shape-2"></div>
+      <div class="hero-shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal-up">Est. 1976 · Government Aided · SSLC Board</div>
+      <h1 class="hero-title reveal-up">
+        <span class="title-line">Karnataka</span>
+        <span class="title-line accent">High School</span>
+        <span class="title-line">Fort, Dharwad</span>
+      </h1>
+      <p class="hero-tagline reveal-up">Affordable Quality Education in the Heart of Dharwad</p>
+      <div class="hero-actions reveal-up">
+        <a href="#admissions" class="btn btn-primary">
+          <i class="fas fa-user-plus"></i> Admissions Open
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fas fa-phone"></i> Contact Us
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <a href="#about"><i class="fas fa-chevron-down"></i></a>
+    </div>
+  </section>
+
+  <!-- ===== STATS BANNER ===== -->
+  <section class="stats-bar">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item" data-target="205" data-suffix="">
+          <span class="stat-number" data-count="205">0</span>
+          <span class="stat-label">Students Enrolled</span>
+        </div>
+        <div class="stat-item" data-target="11" data-suffix="">
+          <span class="stat-number" data-count="11">0</span>
+          <span class="stat-label">Dedicated Teachers</span>
+        </div>
+        <div class="stat-item" data-target="48" data-suffix="+">
+          <span class="stat-number" data-count="48">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Years of Legacy</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">4.5<i class="fas fa-star" style="font-size:0.7em;color:var(--gold);margin-left:4px;"></i></span>
+          <span class="stat-label">Community Rating</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal-left">
+          <div class="about-img-wrap">
+            <img src="img-campus.png" alt="Karnataka High School campus" class="about-img" />
+            <div class="about-img-secondary">
+              <img src="img-entrance.png" alt="School entrance" />
+            </div>
+            <div class="about-badge-card">
+              <i class="fas fa-award"></i>
+              <p>Government Aided<br /><strong>SSLC Excellence</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="about-text reveal-right">
+          <p class="section-label">Our Story</p>
+          <h2 class="section-title">A Legacy of Learning in Fort Dharwad</h2>
+          <p class="about-desc">Karnataka High School, Fort Dharwad has been a cornerstone of quality education in Dharwad city for over four decades. Located in the historic Fort area off Fort Road, near Gandhi Chouk, we are a government-aided institution proudly serving the community with affordable, value-driven schooling.</p>
+          <p class="about-desc">Affiliated with the <strong>Karnataka State SSLC Board</strong>, the school runs classes from LKG through Standard 10. Our alumni — stretching back to the 1976 SSLC batch and beyond — remain deeply connected, actively contributing to campus infrastructure and the school's enduring legacy.</p>
+          <div class="about-pillars">
+            <div class="pillar">
+              <i class="fas fa-book-open"></i>
+              <span>Academic Excellence</span>
+            </div>
+            <div class="pillar">
+              <i class="fas fa-hands-helping"></i>
+              <span>Community Values</span>
+            </div>
+            <div class="pillar">
+              <i class="fas fa-rupee-sign"></i>
+              <span>Affordable Education</span>
+            </div>
+            <div class="pillar">
+              <i class="fas fa-users"></i>
+              <span>Alumni Network</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACADEMICS SECTION ===== -->
+  <section id="academics" class="section academics">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-label">What We Offer</p>
+        <h2 class="section-title">Academic Programmes</h2>
+        <p class="section-subtitle">Holistic curricula designed to nurture every student's potential from early childhood through SSLC</p>
+      </div>
+      <div class="academics-grid">
+        <div class="acad-card reveal-up" style="--delay:0.1s">
+          <div class="acad-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+          <div class="acad-badge">Government Aided</div>
+          <h3>High School</h3>
+          <p class="acad-classes">Classes VIII – X</p>
+          <p>Karnataka State Board (SSLC) curriculum with a focus on strong fundamentals, disciplined learning, and board exam excellence. Our school serves as a designated SSLC examination centre.</p>
+          <ul class="acad-list">
+            <li><i class="fas fa-check"></i> Kannada, English & Hindi</li>
+            <li><i class="fas fa-check"></i> Science & Mathematics</li>
+            <li><i class="fas fa-check"></i> Social Science</li>
+            <li><i class="fas fa-check"></i> Formative & Summative Assessments</li>
+          </ul>
+        </div>
+        <div class="acad-card featured reveal-up" style="--delay:0.2s">
+          <div class="acad-icon"><i class="fas fa-child"></i></div>
+          <div class="acad-badge">English Enriched</div>
+          <h3>Primary & Middle School</h3>
+          <p class="acad-classes">LKG – Class VIII</p>
+          <p>Our co-educational primary and upper-primary section builds a rock-solid foundation with bilingual learning, 20 computers for digital literacy, and a nurturing classroom environment.</p>
+          <ul class="acad-list">
+            <li><i class="fas fa-check"></i> Bilingual Instruction</li>
+            <li><i class="fas fa-check"></i> Digital Literacy (20 computers)</li>
+            <li><i class="fas fa-check"></i> Pre-Primary Programme</li>
+            <li><i class="fas fa-check"></i> Activity-Based Learning</li>
+          </ul>
+        </div>
+        <div class="acad-card reveal-up" style="--delay:0.3s">
+          <div class="acad-icon"><i class="fas fa-trophy"></i></div>
+          <div class="acad-badge">Results & Recognition</div>
+          <h3>Board Examination</h3>
+          <p class="acad-classes">SSLC Excellence Centre</p>
+          <p>Officially designated as an SSLC Examination Centre for Dharwad district, reflecting the trust placed in our institution by the Karnataka government and education authorities.</p>
+          <ul class="acad-list">
+            <li><i class="fas fa-check"></i> Official SSLC Exam Centre</li>
+            <li><i class="fas fa-check"></i> 11 Qualified Teachers</li>
+            <li><i class="fas fa-check"></i> Smart Board Technology</li>
+            <li><i class="fas fa-check"></i> Internet-Enabled Learning</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FACILITIES SECTION ===== -->
+  <section id="facilities" class="section facilities">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-label">Our Campus</p>
+        <h2 class="section-title">World-Class Facilities</h2>
+        <p class="section-subtitle">A safe, stimulating environment designed to support learning at every level</p>
+      </div>
+      <div class="facilities-grid">
+
+        <div class="facility-card reveal-up" style="--delay:0.05s">
+          <div class="facility-icon-wrap">
+            <i class="fas fa-book"></i>
+          </div>
+          <h4>Library & Reading Room</h4>
+          <p>Curated collection of books, a reading corner, and a book bank to foster a love of learning beyond the classroom.</p>
+        </div>
+
+        <div class="facility-card reveal-up" style="--delay:0.1s">
+          <div class="facility-icon-wrap">
+            <i class="fas fa-chalkboard"></i>
+          </div>
+          <h4>Digital Smart Classroom</h4>
+          <p>Functional digiboards with internet connectivity bring interactive, multimedia learning to every lesson.</p>
+        </div>
+
+        <div class="facility-card reveal-up" style="--delay:0.15s">
+          <div class="facility-icon-wrap">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <h4>Computer Lab</h4>
+          <p>20 computers in the primary section equip students with essential digital skills from an early age.</p>
+        </div>
+
+        <div class="facility-card reveal-up" style="--delay:0.2s">
+          <div class="facility-icon-wrap">
+            <i class="fas fa-futbol"></i>
+          </div>
+          <h4>Playground & Sports</h4>
+          <p>Open grounds for physical activity, sports, and play — nurturing fitness, teamwork, and healthy competition.</p>
+        </div>
+
+        <div class="facility-card reveal-up" style="--delay:0.25s">
+          <div class="facility-icon-wrap">
+            <i class="fas fa-tint"></i>
+          </div>
+          <h4>Clean Drinking Water</h4>
+          <p>Functional drinking water and hand-wash facilities ensure health and hygiene standards are maintained daily.</p>
+        </div>
+
+        <div class="facility-card reveal-up" style="--delay:0.3s">
+          <div class="facility-icon-wrap">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h4>Safe & Secure Campus</h4>
+          <p>Pucca boundary walls around the campus and a generator for power backup ensure safety and uninterrupted learning.</p>
+        </div>
+
+        <div class="facility-card reveal-up" style="--delay:0.35s">
+          <div class="facility-icon-wrap">
+            <i class="fas fa-wheelchair"></i>
+          </div>
+          <h4>Accessible Infrastructure</h4>
+          <p>Disability-friendly ramps and inclusive sanitation facilities designed to welcome every student.</p>
+        </div>
+
+        <div class="facility-card reveal-up" style="--delay:0.4s">
+          <div class="facility-icon-wrap">
+            <i class="fas fa-building"></i>
+          </div>
+          <h4>Spacious Classrooms</h4>
+          <p>6 well-maintained teaching rooms and 9 additional spaces including offices, labs, and activity areas in a good-condition private building.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STUDENT LIFE SECTION ===== -->
+  <section id="student-life" class="section student-life">
+    <div class="container">
+      <div class="sl-grid">
+        <div class="sl-text reveal-left">
+          <p class="section-label">Beyond the Classroom</p>
+          <h2 class="section-title">Vibrant Student Life</h2>
+          <p>At Karnataka High School, education extends far beyond textbooks. We believe that holistic development — cultural expression, physical fitness, and social responsibility — shapes truly well-rounded individuals.</p>
+          <div class="sl-activities">
+            <div class="sl-activity">
+              <div class="sl-icon"><i class="fas fa-music"></i></div>
+              <div>
+                <h5>Cultural Programmes</h5>
+                <p>Annual Day performances, Kannada Rajyotsava celebrations, dance, drama and music events that celebrate our rich heritage.</p>
+              </div>
+            </div>
+            <div class="sl-activity">
+              <div class="sl-icon"><i class="fas fa-running"></i></div>
+              <div>
+                <h5>Sports & Fitness</h5>
+                <p>Inter-school competitions, Sports Day, and regular physical education to build teamwork, discipline and endurance.</p>
+              </div>
+            </div>
+            <div class="sl-activity">
+              <div class="sl-icon"><i class="fas fa-star"></i></div>
+              <div>
+                <h5>Annual Events</h5>
+                <p>SSLC farewell ceremonies, science exhibitions, quiz competitions and cultural fests that make every school year memorable.</p>
+              </div>
+            </div>
+            <div class="sl-activity">
+              <div class="sl-icon"><i class="fas fa-seedling"></i></div>
+              <div>
+                <h5>Community & Values</h5>
+                <p>Social awareness initiatives, cleanliness drives, and values education rooted in discipline and respect for all.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sl-gallery reveal-right">
+          <div class="gallery-grid">
+            <div class="gallery-item tall">
+              <img src="img-scouts.png" alt="Scouts & NCC parade" />
+              <div class="gallery-overlay"><span>NCC / Scouts</span></div>
+            </div>
+            <div class="gallery-item">
+              <img src="img-yoga.png" alt="Yoga & fitness day" />
+              <div class="gallery-overlay"><span>Yoga & Fitness</span></div>
+            </div>
+            <div class="gallery-item">
+              <img src="img-parade.png" alt="Students parade" />
+              <div class="gallery-overlay"><span>Parade Day</span></div>
+            </div>
+            <div class="gallery-item wide">
+              <img src="img-building.png" alt="School building" />
+              <div class="gallery-overlay"><span>Our Campus</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS SECTION ===== -->
+  <section class="section testimonials">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-label">Voices of Our Community</p>
+        <h2 class="section-title">What People Say</h2>
+      </div>
+      <div class="testimonial-slider reveal-up">
+        <div class="testimonial-track" id="testimonialTrack">
+          <div class="testimonial-card">
+            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>"Karnataka High School gave my son the discipline and academic grounding he needed. The teachers are dedicated and the fees are very affordable. Best decision we made."</p>
+            <div class="t-author">
+              <div class="t-avatar">SR</div>
+              <div><strong>Suresh Ramaiah</strong><span>Parent, Class X</span></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>"I passed my SSLC from this school in the 1990s. The values and discipline instilled here shaped my entire career. I'm proud to be a KHS alumnus."</p>
+            <div class="t-author">
+              <div class="t-avatar">PM</div>
+              <div><strong>Prakash Metri</strong><span>SSLC Alumnus, 1990s</span></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+            <p>"The digital classrooms and library facilities are excellent for a government-aided school. My daughter loves her teachers and is thriving academically."</p>
+            <div class="t-author">
+              <div class="t-avatar">LK</div>
+              <div><strong>Latha Kulkarni</strong><span>Parent, Class VIII</span></div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>"The 1976 SSLC batch of KHS has renovated the Science Hall — that tells you how much we love this school. The alumni network is incredibly tight-knit and supportive."</p>
+            <div class="t-author">
+              <div class="t-avatar">BN</div>
+              <div><strong>Basavaraj Nayak</strong><span>SSLC Alumnus, 1976 Batch</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-controls">
+          <button class="slider-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+          <div class="slider-dots" id="sliderDots"></div>
+          <button class="slider-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ADMISSIONS SECTION ===== -->
+  <section id="admissions" class="section admissions">
+    <div class="container">
+      <div class="admissions-wrap">
+        <div class="admissions-text reveal-left">
+          <p class="section-label">Join Our Family</p>
+          <h2 class="section-title">Admissions Open<br /><span class="accent">2025–26</span></h2>
+          <p>We welcome students who are eager to learn and grow. Our admissions process is straightforward, our fees are genuinely affordable, and our academic environment is structured for success.</p>
+          <div class="admission-steps">
+            <div class="step">
+              <div class="step-num">01</div>
+              <div class="step-text">
+                <h5>Enquire</h5>
+                <p>Visit the school office or call us between 9:00 am – 5:00 pm, Mon–Sat.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">02</div>
+              <div class="step-text">
+                <h5>Submit Documents</h5>
+                <p>Bring previous academic records, TC, birth certificate and passport photos.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">03</div>
+              <div class="step-text">
+                <h5>Enrol & Begin</h5>
+                <p>Complete admission formalities. Academic year starts in <strong>April</strong>.</p>
+              </div>
+            </div>
+          </div>
+          <div class="fee-note">
+            <i class="fas fa-info-circle"></i>
+            <span>Affordable annual fees — one of the most cost-effective SSLC schools in Dharwad. Contact the office for the exact fee structure.</span>
+          </div>
+          <a href="#contact" class="btn btn-primary" style="margin-top:2rem;">
+            <i class="fas fa-paper-plane"></i> Apply Now
+          </a>
+        </div>
+        <div class="admissions-card reveal-right">
+          <div class="adm-card-inner">
+            <h4><i class="fas fa-calendar-alt"></i> Key Dates</h4>
+            <ul class="key-dates">
+              <li><span class="date-label">Academic Year Begins</span><span class="date-val">April 2025</span></li>
+              <li><span class="date-label">Admissions Open</span><span class="date-val">Jan – Mar 2025</span></li>
+              <li><span class="date-label">SSLC Board Exam</span><span class="date-val">Mar – Apr 2026</span></li>
+              <li><span class="date-label">Office Hours</span><span class="date-val">Mon–Sat, 9am–5pm</span></li>
+            </ul>
+            <div class="adm-divider"></div>
+            <h4><i class="fas fa-list-ul"></i> Classes Available</h4>
+            <div class="class-tags">
+              <span>LKG / UKG</span><span>Class I</span><span>Class II</span>
+              <span>Class III</span><span>Class IV</span><span>Class V</span>
+              <span>Class VI</span><span>Class VII</span><span>Class VIII</span>
+              <span>Class IX</span><span>Class X (SSLC)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ALUMNI SECTION ===== -->
+  <section id="alumni" class="section alumni">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-label">Our Pride</p>
+        <h2 class="section-title">Distinguished Alumni</h2>
+        <p class="section-subtitle">Four decades of graduates who carry the KHS spirit wherever life takes them</p>
+      </div>
+      <div class="alumni-content">
+        <div class="alumni-highlight reveal-up">
+          <div class="alumni-icon"><i class="fas fa-users-cog"></i></div>
+          <h3>Alumni Giving Back</h3>
+          <p>The 1976 SSLC batch — one of the earliest cohorts in our records — has spearheaded the renovation of the school's Science Hall, a testament to the enduring pride our alumni hold for Karnataka High School.</p>
+          <p style="margin-top:1rem;">From teachers and engineers to entrepreneurs and public servants, our alumni network spans every walk of life, and many continue to mentor current students and support the school's development.</p>
+          <a href="#contact" class="btn btn-outline" style="margin-top:1.5rem;"><i class="fas fa-handshake"></i> Connect with Alumni</a>
+        </div>
+        <div class="alumni-cards">
+          <div class="alumni-stat-card reveal-up" style="--delay:0.1s">
+            <i class="fas fa-history"></i>
+            <strong>Since 1976</strong>
+            <span>Recorded SSLC alumni</span>
+          </div>
+          <div class="alumni-stat-card reveal-up" style="--delay:0.2s">
+            <i class="fas fa-hammer"></i>
+            <strong>Science Hall</strong>
+            <span>Alumni-funded renovation</span>
+          </div>
+          <div class="alumni-stat-card reveal-up" style="--delay:0.3s">
+            <i class="fas fa-globe-asia"></i>
+            <strong>Nationwide</strong>
+            <span>Alumni across India & abroad</span>
+          </div>
+          <div class="alumni-stat-card reveal-up" style="--delay:0.4s">
+            <i class="fas fa-comments"></i>
+            <strong>Active Network</strong>
+            <span>Community on Facebook & more</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <p class="section-label">Get In Touch</p>
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-subtitle">We'd love to hear from you. Reach out for admissions, enquiries, or any other information.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <div class="contact-card">
+            <div class="contact-detail">
+              <div class="cd-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <h5>Address</h5>
+                <p>Fort Road, near Gandhi Chouk,<br />Maratha Colony, Dharwad – 580001,<br />Karnataka, India</p>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="cd-icon"><i class="fas fa-phone-alt"></i></div>
+              <div>
+                <h5>Phone</h5>
+                <p><a href="tel:08362442309">0836-2442309</a></p>
+                <p><a href="tel:09483757652">9483757652</a></p>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="cd-icon"><i class="fas fa-clock"></i></div>
+              <div>
+                <h5>Office Hours</h5>
+                <p>Monday – Saturday: 9:00 am – 5:00 pm<br />Sunday: Closed</p>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="cd-icon"><i class="fas fa-graduation-cap"></i></div>
+              <div>
+                <h5>School Timings</h5>
+                <p>Primary Section: 8:00 am – 2:00 pm<br />High School: 9:00 am – 5:00 pm</p>
+              </div>
+            </div>
+          </div>
+          <!-- Google Maps embed -->
+          <div class="map-wrap">
+            <iframe
+              title="Karnataka High School Location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3849.5!2d75.0126!3d15.4556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb8d7b0e8d5c5c5%3A0x1234567890abcdef!2sFort%20Rd%2C%20Dharwad%2C%20Karnataka%20580001!5e0!3m2!1sen!2sin!4v1234567890"
+              allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+        </div>
+        <div class="contact-form-wrap reveal-right">
+          <form id="contactForm" class="contact-form" novalidate>
+            <h4>Send Us a Message</h4>
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" name="subject">
+                <option value="">Select a subject</option>
+                <option>Admission Enquiry</option>
+                <option>Fee Structure</option>
+                <option>Alumni Reconnect</option>
+                <option>General Enquiry</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message here…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <div id="formStatus" class="form-status"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <img src="img-logo.png" alt="KHS Logo" class="footer-logo-img" />
+              <div>
+                <strong>Karnataka High School</strong>
+                <span>Fort, Dharwad</span>
+              </div>
+            </div>
+            <p>A government-aided institution providing affordable, quality education since 1976. Proudly serving the community of Dharwad city.</p>
+            <div class="social-links">
+              <a href="https://www.facebook.com/KHS.Dharwad/" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+              <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+          <div class="footer-links">
+            <h5>Quick Links</h5>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#academics">Academics</a></li>
+              <li><a href="#facilities">Facilities</a></li>
+              <li><a href="#student-life">Student Life</a></li>
+              <li><a href="#admissions">Admissions</a></li>
+              <li><a href="#alumni">Alumni</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h5>Programmes</h5>
+            <ul>
+              <li><a href="#academics">High School (VIII–X)</a></li>
+              <li><a href="#academics">Middle School (V–VIII)</a></li>
+              <li><a href="#academics">Primary (I–IV)</a></li>
+              <li><a href="#academics">Pre-Primary (LKG/UKG)</a></li>
+              <li><a href="#admissions">SSLC Board</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h5>Contact Info</h5>
+            <p><i class="fas fa-map-marker-alt"></i> Fort Road, Gandhi Chouk,<br />Dharwad – 580001, Karnataka</p>
+            <p><i class="fas fa-phone"></i> <a href="tel:08362442309">0836-2442309</a></p>
+            <p><i class="fas fa-clock"></i> Mon–Sat: 9:00 am – 5:00 pm</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 Karnataka High School, Fort Dharwad. All rights reserved.</p>
+        <p>UDISE Code: 29090701214 | Karnataka State SSLC Board</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
